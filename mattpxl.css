@@ -9,6 +9,9 @@
             font-family: 'QuantumSans';
             text-align: center;
             padding: 50px;
+            background-image: url('images/UI/bggradient0.png'); 
+            background-size: cover; 
+            background-position: top;
         }
         img {
             max-width: 100%;
