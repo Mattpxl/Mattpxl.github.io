@@ -1,0 +1,36 @@
+@font-face {
+        font-family: 'QuantumSans';
+        src: url('Font/quantumsans/quantumsans.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        body {
+            font-family: 'QuantumSans';
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        text0 {
+            color: black;
+        }
+        .button-with-image {
+            background-image: url('images/UI/button_shell0.png');
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: hsla(255, 100%, 100%, 0);
+            color: white; /* Adjust text color if needed */
+            font-family: 'QuantumSans';
+            font-size: 8px;
+            border: none;
+            width: 320px;
+            height: 64px;
+        }
+        .divdisplay {
+            background-color: hsla(185, 85%, 75%, 0.5);
+            padding: 10px;
+        }
