@@ -23,6 +23,7 @@
         }
 
         body {
+            margin: 0 auto; /* Centers the container */
             font-family: 'QuantumSans';
             text-align: center;
             padding: 50px;
