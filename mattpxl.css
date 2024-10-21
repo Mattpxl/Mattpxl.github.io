@@ -1,9 +1,23 @@
-@font-face {
+    
+    @media (max-width: 768px) {
+        .container {
+            padding: 10px; /* Reduce padding on smaller screens */
+            text-align: center; /* Center text on mobile */
+        }
+    
+        .image-item {
+            max-width: 100%; /* Ensure images scale down on mobile */
+        }
+    
+        h1, p {
+            font-size: 1.2rem; /* Reduce font size for mobile */
+        }
+    }
+    @font-face {
         font-family: 'QuantumSans';
-        src: 
-            url('Font/quantumsans/quantumsans.woff2') format('woff2'),
-            url('Font/quantumsans/quantumsans.woff') format('woff'),
-            url('Font/quantumsans/quantumsans.ttf') format('truetype');
+        src: url('Font/quantumsans/quantumsans.woff2') format('woff2'),
+             url('Font/quantumsans/quantumsans.woff') format('woff'),
+             url('Font/quantumsans/quantumsans.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         }
@@ -37,6 +51,12 @@
             height: 64px;
         }
         .divdisplay {
+            margin: 0 auto; /* Centers the container */
+            max-width: 100%; /* Ensures container does not exceed screen size */
+            padding: 20px; /* Adds padding around the content */
+            box-sizing: border-box; /* Ensures padding is included within width */
+            overflow-wrap: break-word; /* Ensures text wraps properly */
+            word-wrap: break-word;
             background-color: hsla(185, 85%, 75%, 0.5);
             padding: 10px;
         }
