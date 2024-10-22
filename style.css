@@ -50,6 +50,9 @@
         text0 {
             color: black;
         }
+        text1 {
+            color: teal;
+        }
         .serif {
             font-family: 'QuantumSerif';
         }
