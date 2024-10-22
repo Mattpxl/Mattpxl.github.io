@@ -21,15 +21,24 @@
         font-weight: normal;
         font-style: normal;
         }
+        @font-face {
+            font-family: 'QuantumSerif';
+            src: url('documents/Font/quantumserif/quantumserif.woff2') format('woff2'),
+                 url('documents/Font/quantumserif/quantumserif.woff') format('woff'),
+                 url('documents/Font/quantumserif/quantumserif.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
 
         body {
             margin: 0 auto; /* Centers the container */
-            font-family: 'QuantumSans';
+            font-family: 'QuantumSans', 'QuantumSerif';
             text-align: center;
             padding: 50px;
             background-image: url('images/UI/bggradient0.png'); 
             background-size: cover; 
             background-position: top;
+            background-repeat: repeat;
         }
         img {
             max-width: 100%;
@@ -37,6 +46,9 @@
         }
         text0 {
             color: black;
+        }
+        .serif {
+            font-family: 'QuantumSerif';
         }
         .button-with-image {
             background-image: url('images/UI/button_shell0.png');
