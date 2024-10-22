@@ -40,6 +40,9 @@
             background-position: top;
             background-repeat: repeat-y;
         }
+        nav {
+            margin: 0 auto; /* Centers the container */
+        }
         img {
             max-width: 100%;
             height: auto;
