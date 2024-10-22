@@ -15,9 +15,9 @@
     }
     @font-face {
         font-family: 'QuantumSans';
-        src: url('Font/quantumsans/quantumsans.woff2') format('woff2'),
-             url('Font/quantumsans/quantumsans.woff') format('woff'),
-             url('Font/quantumsans/quantumsans.ttf') format('truetype');
+        src: url('documents/Font/quantumsans/quantumsans.woff2') format('woff2'),
+             url('documents/Font/quantumsans/quantumsans.woff') format('woff'),
+             url('documents/Font/quantumsans/quantumsans.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         }
