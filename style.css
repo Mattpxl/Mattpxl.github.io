@@ -36,7 +36,7 @@
             text-align: center;
             padding: 50px;
             background-image: url('images/UI/bggradient0.png'); 
-            background-size: cover; 
+            background-size: contain; 
             background-position: top;
             background-repeat: repeat-y;
         }
