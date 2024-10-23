@@ -51,7 +51,12 @@
             color: black;
         }
         text1 {
-            color: teal;
+            color: white; 
+            font-size: 12px;
+        }
+        text2 {
+            font-size: 8px;
+            color: lightblue;
         }
         .serif {
             font-family: 'QuantumSerif';
@@ -71,6 +76,7 @@
         }
         .divdisplay {
             margin: 0 auto; /* Centers the container */
+            justify-content: center;
             max-width: 100%; /* Ensures container does not exceed screen size */
             padding: 10px; /* Adds padding around the content */
             box-sizing: border-box; /* Ensures padding is included within width */
@@ -80,6 +86,7 @@
         }
         .cmykdisplay {
             margin: 0 auto; /* Centers the container */
+            justify-content: center;
             max-width: 100%; /* Ensures container does not exceed screen size */
             padding: 10px; /* Adds padding around the content */
             box-sizing: border-box; /* Ensures padding is included within width */
