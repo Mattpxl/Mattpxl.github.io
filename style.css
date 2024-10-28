@@ -73,6 +73,7 @@
             border: none;
             width: 320px;
             height: 64px;
+            cursor: pointer;
         }
         .divdisplay {
             margin: 0 auto; /* Centers the container */
