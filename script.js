@@ -5,3 +5,11 @@ function openEmail() {
 
 // Event listener to call openEmail when button is clicked
 document.getElementById('emailButton').addEventListener('click', openEmail);
+
+  // Toggle button graphic on click
+  const button = document.getElementByClass(".button-with-image");
+
+  button.addEventListener("click", () => {
+    button.classList.toggle("clicked");
+    button.classList.remove("hover-enabled");
+  });

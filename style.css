@@ -71,9 +71,15 @@
             font-family: 'QuantumSans';
             font-size: 8px;
             border: none;
-            width: 320px;
-            height: 64px;
+            width: 200px;
+            height: 32px;
             cursor: pointer;
+        }
+        .button-with-image.clicked {
+            background-image: url('images/UI/button_clicked.png'); /* Replace with the image for clicked state */
+          }
+        .button-with-image:hover {
+            background-image: url('images/UI/button_hover.png'); 
         }
         .divdisplay {
             margin: 0 auto; /* Centers the container */
@@ -98,3 +104,4 @@
             background-position: top;
             background-color: hsla(255, 100%, 100%, 0);
         }
+
