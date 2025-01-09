@@ -1,0 +1,107 @@
+    
+    @media (max-width: 768px) {
+        .container {
+            padding: 10px; /* Reduce padding on smaller screens */
+            text-align: center; /* Center text on mobile */
+        }
+    
+        .image-item {
+            max-width: 100%; /* Ensure images scale down on mobile */
+        }
+    
+        h1, p {
+            font-size: 1.2rem; /* Reduce font size for mobile */
+        }
+    }
+    @font-face {
+        font-family: 'QuantumSans';
+        src: url('../../documents/Font/quantumsans/quantumsans.woff2') format('woff2'),
+             url('../../documents/Font/quantumsans/quantumsans.woff') format('woff'),
+             url('../../documents/Font/quantumsans/quantumsans.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+        @font-face {
+            font-family: 'QuantumSerif';
+            src: url('../../documents/Font/quantumserif/quantumserif.woff2') format('woff2'),
+                 url('../../documents/Font/quantumserif/quantumserif.woff') format('woff'),
+                 url('../../documents/Font/quantumserif/quantumserif.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
+
+        body {
+            margin: 0 auto; /* Centers the container */
+            font-family: 'QuantumSans', 'QuantumSerif';
+            text-align: center;
+            padding: 50px;
+            background-image: url('../../images/UI/bggradient0.png'); 
+            background-size: contain; 
+            background-position: top;
+            background-repeat: repeat-y;
+        }
+        nav {
+            margin: 0 auto; /* Centers the container */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        text0 {
+            color: black;
+        }
+        text1 {
+            color: white; 
+            font-size: 12px;
+        }
+        text2 {
+            font-size: 8px;
+            color: lightblue;
+        }
+        .serif {
+            font-family: 'QuantumSerif';
+        }
+        .button-with-image {
+            background-image: url('../../images/UI/button_shell0.png');
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: hsla(255, 100%, 100%, 0);
+            color: white; /* Adjust text color if needed */
+            font-family: 'QuantumSans';
+            font-size: 8px;
+            border: none;
+            width: 200px;
+            height: 32px;
+            cursor: pointer;
+        }
+        .button-with-image.clicked {
+            background-image: url('../../images/UI/button_clicked.png'); /* Replace with the image for clicked state */
+          }
+        .button-with-image:hover {
+            background-image: url('../../images/UI/button_hover.png'); 
+        }
+        .divdisplay {
+            margin: 0 auto; /* Centers the container */
+            justify-content: center;
+            max-width: 100%; /* Ensures container does not exceed screen size */
+            padding: 10px; /* Adds padding around the content */
+            box-sizing: border-box; /* Ensures padding is included within width */
+            overflow-wrap: break-word; /* Ensures text wraps properly */
+            word-wrap: break-word;
+            background-color: hsla(185, 85%, 75%, 0.5);
+        }
+        .cmykdisplay {
+            margin: 0 auto; /* Centers the container */
+            justify-content: center;
+            max-width: 100%; /* Ensures container does not exceed screen size */
+            padding: 10px; /* Adds padding around the content */
+            box-sizing: border-box; /* Ensures padding is included within width */
+            overflow-wrap: break-word; /* Ensures text wraps properly */
+            word-wrap: break-word;
+            background-image: url('../../images/UI/mainmenu_bgx6.png');
+            background-repeat: no-repeat;
+            background-position: top;
+            background-color: hsla(255, 100%, 100%, 0);
+        }
+
