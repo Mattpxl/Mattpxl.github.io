@@ -15,17 +15,17 @@
     }
     @font-face {
         font-family: 'QuantumSans';
-        src: url('../../documents/Font/quantumsans/quantumsans.woff2') format('woff2'),
-             url('../../documents/Font/quantumsans/quantumsans.woff') format('woff'),
-             url('../../documents/Font/quantumsans/quantumsans.ttf') format('truetype');
+        src: url('../documents/UI/Font/quantumsans/quantumsans.woff2') format('woff2'),
+             url('../documents/UI/Font/quantumsans/quantumsans.woff') format('woff'),
+             url('../documents/UI/Font/quantumsans/quantumsans.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         }
         @font-face {
             font-family: 'QuantumSerif';
-            src: url('../../documents/Font/quantumserif/quantumserif.woff2') format('woff2'),
-                 url('../../documents/Font/quantumserif/quantumserif.woff') format('woff'),
-                 url('../../documents/Font/quantumserif/quantumserif.ttf') format('truetype');
+            src: url('../documents/UI/Font/quantumserif/quantumserif.woff2') format('woff2'),
+                 url('../documents/UI/Font/quantumserif/quantumserif.woff') format('woff'),
+                 url('../documents/UI/Font/quantumserif/quantumserif.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
             }
@@ -35,7 +35,7 @@
             font-family: 'QuantumSans', 'QuantumSerif';
             text-align: center;
             padding: 50px;
-            background-image: url('../../images/UI/bggradient0.png'); 
+            background-image: url('../documents/UI/bggradient0.png'); 
             background-size: contain; 
             background-position: top;
             background-repeat: repeat-y;
@@ -62,7 +62,7 @@
             font-family: 'QuantumSerif';
         }
         .button-with-image {
-            background-image: url('../../images/UI/button_shell0.png');
+            background-image: url('../documents/UI/button_shell0.png');
             background-size: auto;
             background-repeat: no-repeat;
             background-position: center;
@@ -76,10 +76,10 @@
             cursor: pointer;
         }
         .button-with-image.clicked {
-            background-image: url('../../images/UI/button_clicked.png'); /* Replace with the image for clicked state */
+            background-image: url('../documents/UI/button_clicked.png'); /* Replace with the image for clicked state */
           }
         .button-with-image:hover {
-            background-image: url('../../images/UI/button_hover.png'); 
+            background-image: url('../documents//UI/button_hover.png'); 
         }
         .divdisplay {
             margin: 0 auto; /* Centers the container */
@@ -99,7 +99,7 @@
             box-sizing: border-box; /* Ensures padding is included within width */
             overflow-wrap: break-word; /* Ensures text wraps properly */
             word-wrap: break-word;
-            background-image: url('../../images/UI/mainmenu_bgx6.png');
+            background-image: url('../documents/UI/mainmenu_bgx6.png');
             background-repeat: no-repeat;
             background-position: top;
             background-color: hsla(255, 100%, 100%, 0);
